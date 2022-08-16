@@ -1,0 +1,40 @@
+.note-size {
+    width: 450px;
+}
+
+.pc {
+    width: 450px;
+}
+
+.smartphone {
+    width: 350px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.thumbnail {
+    width: 150px;
+}
+
+.center {
+    text-align: center;
+}
+
+.title-size {
+    font-size: 14px;
+    text-decoration: none;
+    width: 175px;
+}
+
+.date-size {
+    font-size: 12px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;700&family=Roboto:wght@300;400;500&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+.headshot {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+.intro-center {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 100px; */
+}
+
+.intro-smartphone {
+  font-size: 16px;
+  width: 375px;
+}
+
+.intro-pc {
+  font-size: 16px;
+  width: 950px;
+}
+
+.subTitle {
+  font-size: 44px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.pale-background {
+    background-color: #FAFAFA;
+}
+
+
+.profile {
+  text-align: center;
+  height: 400px;
+}
+
+.small-letter {
+    font-size: 14px;
+}
+
+.medium-letter {
+    font-size: 20px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.univ_logo_wrapper {
+  text-align: center;
+}
+
+.univ_logo {
+  /* width: 75px; */
+  height: 50px;
+  margin-left: 30px;
+}
+
+.achievements {
+    margin-top: 100px;
+}
+
+.achievements_list {
+  font-size: 16px;
+}
+
+.ul_align_center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+li {
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+.merits {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.why_polymath {
+  font-size: 16px;
+}
+
+.social-smartphone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-pc {
+    display: flex;
+    justify-content: center;
+}
