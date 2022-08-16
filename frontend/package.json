@@ -15,7 +15,6 @@
     "react-bootstrap-text": "^0.5.3",
     "react-dom": "^18.2.0",
     "react-responsive": "^9.0.0-beta.10",
-    "react-rss": "^2.0.0",
     "react-scripts": "5.0.1",
     "react-twitter-widgets": "^1.11.0",
     "web-vitals": "^2.1.4"
