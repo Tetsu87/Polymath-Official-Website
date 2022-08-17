@@ -70,6 +70,7 @@ html {
 
 p {
   text-align: justify;
+  max-width: 950px;
 }
 
 .medium-letter {
@@ -92,6 +93,9 @@ p {
 
 .achievements {
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .achievements_list {

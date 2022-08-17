@@ -175,7 +175,7 @@ function Contents() {
         </div>
         <p className="text-center">直近3年間実績</p>
 
-        <div className="univ_logo_wrapper">
+        <div className="univ_logo_wrapper py-3">
           <img src={columbia} className="univ_logo" />
           <img src={usc} className="univ_logo" />
           <img src={uw} className="univ_logo" />
@@ -185,7 +185,7 @@ function Contents() {
         </div>
 
         <div className="achievements_list pb-5">
-          <div className="ul_align_center py-5">
+          <div className="ul_align_center py-3">
             <ul>
               <li>Columbia University - MS in Data Science</li>
               <li>
