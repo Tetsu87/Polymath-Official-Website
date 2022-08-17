@@ -40,6 +40,7 @@ function BootstrapNavbar() {
     return (
       <>
         <Navbar key="md" expand="md" className="mb-3" collapseOnSelect>
+          {/* <Container fluid= "md"> */}
           <Container className="navbar-width">
             <Navbar.Brand href="#">
               <img src={polymath_logo} className="polymath-logo" />
