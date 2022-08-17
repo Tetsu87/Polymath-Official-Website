@@ -4,7 +4,7 @@ import { Timeline } from "react-twitter-widgets";
 
 function TwitterTimeline() {
   return (
-    <div className="timeline_wrapper">
+    <div className="timeline_wrapper mt-3">
       <div>
         <main>
           <Timeline

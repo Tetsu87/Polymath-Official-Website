@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import MediaQuery from "react-responsive";
 
 function BootstrapNavbar() {
   // const [isHeaderShown, setIsHeaderShown] = useState(true);
@@ -39,9 +40,10 @@ function BootstrapNavbar() {
 
     return (
       <>
-        <Navbar key="md" expand="md" className="mb-3" collapseOnSelect>
-          {/* <Container fluid= "md"> */}
-          <Container className="navbar-width">
+      {/* <MediaQuery query="(max-width: 767px)"></MediaQuery>
+      <MediaQuery query="(min-width: 768px)"></MediaQuery> */}
+        <Navbar  key="md" expand="md" className="mb-3" collapseOnSelect>
+          <Container>
             <Navbar.Brand href="#">
               <img src={polymath_logo} className="polymath-logo" />
             </Navbar.Brand>

@@ -47,7 +47,7 @@ function NoteTimeline() {
   }, []);
 
   return (
-    <div>
+    <div className="mt-3">
       <MediaQuery query="(max-width: 767px)">
         <div className="center">
           <a href="https://note.com/polymathnyc" target="_blank">

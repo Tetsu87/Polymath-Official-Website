@@ -185,7 +185,7 @@ function Contents() {
           <img src={texastech} className="univ_logo" />
         </div>
 
-        <div className="achievements_list pb-5">
+        <div className="achievements_list px-3 pb-5">
           <div className="ul_align_center py-3">
             <ul>
               <li>Columbia University - MS in Data Science</li>
@@ -219,7 +219,7 @@ function Contents() {
         </div>
         <MediaQuery query="(max-width: 767px)">
           <div className="social-smartphone">
-            <TwitterTimeline />
+            <TwitterTimeline/>
             <NoteTimeline />
           </div>
         </MediaQuery>
