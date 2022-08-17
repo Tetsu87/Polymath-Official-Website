@@ -41,14 +41,35 @@ html {
     background-color: #FAFAFA;
 }
 
+.team-wrapper {
+  max-width: 1300px;
+}
+
+.profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .profile {
   text-align: center;
-  height: 400px;
+  height: 360px;
+}
+
+.profile-width {
+  width: 300px;
 }
 
 .small-letter {
     font-size: 14px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+p {
+  text-align: justify;
 }
 
 .medium-letter {
@@ -95,8 +116,11 @@ li {
   text-align: center;
 }
 
-.why_polymath {
+.why-polymath {
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .social-smartphone {

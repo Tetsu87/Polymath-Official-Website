@@ -1,7 +1,6 @@
 import polymath_logo from "./images/polymath_logo.jpg";
 import "./BootstrapNavbar.css";
 import { useCallback, useEffect, useState } from "react";
-import MediaQuery from "react-responsive";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -11,42 +10,41 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import Form from "react-bootstrap/Form";
 
 function BootstrapNavbar() {
-  const [isHeaderShown, setIsHeaderShown] = useState(true);
-  const [lastPosition, setLastPosition] = useState(0);
-  const headerHeight = 500;
+  // const [isHeaderShown, setIsHeaderShown] = useState(true);
+  // const [lastPosition, setLastPosition] = useState(0);
+  // const headerHeight = 500;
 
-  const scrollEvent = useCallback(() => {
-    const offset = window.scrollY;
-    console.log(offset);
+  // const scrollEvent = useCallback(() => {
+  //   const offset = window.scrollY;
+  //   console.log(offset);
 
-    if (offset > headerHeight) {
-      setIsHeaderShown(false);
-    } else {
-      setIsHeaderShown(true);
-    }
+  //   if (offset > headerHeight) {
+  //     setIsHeaderShown(false);
+  //   } else {
+  //     setIsHeaderShown(true);
+  //   }
 
-    if (offset < lastPosition) {
-      setIsHeaderShown(true);
-    }
+  //   if (offset < lastPosition) {
+  //     setIsHeaderShown(true);
+  //   }
 
-    setLastPosition(offset);
-  }, [lastPosition]);
+  //   setLastPosition(offset);
+  // }, [lastPosition]);
 
-  useEffect(() => {
-    window.addEventListener("scroll", scrollEvent);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", scrollEvent);
 
-    return () => {
-      window.removeEventListener("scroll", scrollEvent);
-    };
-  }, [scrollEvent]);
+  //   return () => {
+  //     window.removeEventListener("scroll", scrollEvent);
+  //   };
+  // }, [scrollEvent]);
 
-  if (true) {
     return (
       <>
-        <Navbar key="md" expand="md" className="mb-3">
+        <Navbar key="md" expand="md" className="mb-3" collapseOnSelect>
           <Container fluid>
             <Navbar.Brand href="#">
-              <img src={polymath_logo} className="polymath_logo" />
+              <img src={polymath_logo} className="polymath-logo" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
             <Navbar.Offcanvas
@@ -56,7 +54,7 @@ function BootstrapNavbar() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
-                  <img src={polymath_logo} className="polymath_logo" />
+                  <img src={polymath_logo} className="polymath-logo-offcanvas" />
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -74,7 +72,7 @@ function BootstrapNavbar() {
         </Navbar>
       </>
     );
-  }
+
 }
 
 export default BootstrapNavbar;
