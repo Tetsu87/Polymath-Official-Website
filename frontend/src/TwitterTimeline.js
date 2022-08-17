@@ -14,7 +14,7 @@ function TwitterTimeline() {
             }}
             options={{
               height: "500",
-              width:"400",
+              width:"375",
             }}
           />
         </main>

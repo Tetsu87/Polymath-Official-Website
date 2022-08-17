@@ -42,7 +42,7 @@ html {
 }
 
 .team-wrapper {
-  max-width: 1300px;
+  max-width: 1050px;
 }
 
 .profile-wrapper {
@@ -58,6 +58,11 @@ html {
 
 .profile-width {
   width: 300px;
+}
+
+.book-link {
+  display: inline;
+  color: black;
 }
 
 .small-letter {
@@ -86,7 +91,6 @@ p {
 }
 
 .univ_logo {
-  /* width: 75px; */
   height: 50px;
   margin-left: 30px;
 }

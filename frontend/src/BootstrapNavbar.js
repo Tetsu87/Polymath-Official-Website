@@ -5,9 +5,7 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import Form from "react-bootstrap/Form";
 
 function BootstrapNavbar() {
   // const [isHeaderShown, setIsHeaderShown] = useState(true);
@@ -42,7 +40,7 @@ function BootstrapNavbar() {
     return (
       <>
         <Navbar key="md" expand="md" className="mb-3" collapseOnSelect>
-          <Container fluid>
+          <Container className="navbar-width">
             <Navbar.Brand href="#">
               <img src={polymath_logo} className="polymath-logo" />
             </Navbar.Brand>
