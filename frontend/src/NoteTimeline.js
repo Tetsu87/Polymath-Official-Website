@@ -48,35 +48,13 @@ function NoteTimeline() {
 
   return (
     <div className="mt-3">
-      {/* <MediaQuery query="(max-width: 767px)">
-        <div className="center m-0 p-0">
-          <a href="https://note.com/polymathnyc" target="_blank">
-            <img src={note_logo} className="logo" />
-          </a>
-        </div>
-
-        {articles.map((article) => (
-          <div>
-            <div className="">
-              <img src={article.thumbnailURL} className="thumbnail" />
-            </div>
-            <div className="article-content-wrapper">
-              <div className="title-size">{article.title}</div>
-              <div className="date-size">
-                投稿日：{article.pubDate.slice(4, 16)}
-              </div>
-            </div>
-          </div>
-        ))}
-      </MediaQuery> */}
-
       <MediaQuery query="(max-width: 767px)">
-        <div className="center">
+        <div className="center mb-3">
           <a href="https://note.com/polymathnyc" target="_blank">
             <img src={note_logo} className="logo" />
           </a>
         </div>
-        <div className="article-wrapper">
+        <div className="article-wrapper mb-3">
           {articles.map((article) => (
             <a href={article.link} target="_blank">
               <Row className="smartphone">
