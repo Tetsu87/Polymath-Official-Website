@@ -117,18 +117,41 @@ function Contact() {
             {status}
           </button>
 
-          <p className="text-center small-letter pc">
-            LINEでの相談も受付開始しました。お気軽にご連絡ください。
+          <p className="text-center small-letter smartphone-contact">
+            簡単なご相談はLINEでも承っております。お気軽にどうぞ。
           </p>
 
+          <style type="text/css">
+            {`
+    .btn-line {
+      background-color: #09b53b;
+      color: white;
+    }
+
+    .btn-xxl {
+      padding: 0.5rem 1.2rem;
+      font-size: 1.2rem;
+    }
+    `}
+          </style>
+
           <a href="https://lin.ee/Rz2NZubS" target="_blank">
-            <p>aaaa</p>
+            <div className="line-wrapper">
+              <div className="px-3">
+                <img src={line} className="line-logo" />
+              </div>
+              <div>
+                <Button variant="line" size="xxl">
+                  LINEで相談する
+                </Button>
+              </div>
+            </div>
           </a>
         </MediaQuery>
 
         <MediaQuery query="(min-width: 768px)">
           <p className="text-center small-letter pc">
-            無料相談を随時承ってます。まずはお気軽にご連絡ください。
+            無料相談の受付を随時承ってます。お気軽にご連絡ください。
           </p>
           <div className="mb-1">
             <input
@@ -202,7 +225,7 @@ function Contact() {
           </button>
 
           <p className="text-center small-letter pc">
-            LINEでの相談も受付開始しました。お気軽にご連絡ください。
+            簡単なご相談はLINEでも承っております。お気軽にどうぞ。
           </p>
 
           <style type="text/css">
@@ -213,7 +236,7 @@ function Contact() {
     }
 
     .btn-xxl {
-      padding: 0.85rem 1.5rem;
+      padding: 0.5rem 1.2rem;
       font-size: 1.2rem;
     }
     `}

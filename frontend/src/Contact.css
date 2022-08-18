@@ -67,8 +67,8 @@ option {
     border: none;
     font-size: 15px;
     font-weight: bold;
-    width: 80px;
-    height: 25px;
+    width: 100px;
+    height: 32px;
     text-align: center;
 }
 
@@ -81,7 +81,7 @@ option {
 }
 
 .line-logo {
-  width: 75px;
+  width: 60px;
 }
 
 .line-wrapper {
