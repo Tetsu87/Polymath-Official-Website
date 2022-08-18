@@ -219,14 +219,14 @@ function Contents() {
         </div>
         <MediaQuery query="(max-width: 767px)">
           <div className="social-smartphone">
-            <TwitterTimeline/>
             <NoteTimeline />
+            <TwitterTimeline/>
           </div>
         </MediaQuery>
         <MediaQuery query="(min-width: 768px)">
           <div className="social-pc">
-            <TwitterTimeline />
             <NoteTimeline />
+            <TwitterTimeline />
           </div>
         </MediaQuery>
       </div>

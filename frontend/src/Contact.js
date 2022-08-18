@@ -39,7 +39,7 @@ function Contact() {
     <form onSubmit={handleSubmit}>
       <div className="form-wrapper">
         <MediaQuery query="(max-width: 767px)">
-          <p className="text-center small-letter smartphone">
+          <p className="text-center small-letter smartphone-contact">
             無料相談を随時承ってます。まずはお気軽にご連絡ください。
           </p>
           <div className="mb-1">
@@ -47,7 +47,7 @@ function Contact() {
               type="text"
               id="name"
               placeholder="名前"
-              className="smartphone"
+              className="smartphone-contact"
               required
             />
           </div>
@@ -56,7 +56,7 @@ function Contact() {
               type="email"
               id="email"
               placeholder="メールアドレス"
-              className="smartphone"
+              className="smartphone-contact"
               required
             />
           </div>
@@ -65,7 +65,7 @@ function Contact() {
               type="text"
               id="tel"
               placeholder="電話番号"
-              className="smartphone"
+              className="smartphone-contact"
               required
             />
           </div>
@@ -73,7 +73,7 @@ function Contact() {
             <textarea
               id="message"
               placeholder="問い合わせ内容"
-              className="smartphone"
+              className="smartphone-contact"
               required
             ></textarea>
           </div>
@@ -81,14 +81,12 @@ function Contact() {
             <select
               id="options"
               required
-              className="mt-3 option-font smartphone"
+              className="mt-3 option-font smartphone-contact"
             >
-              {/* <optgroup required> */}
-              <option value="" disabled required>
-                {" "}
+              <option value="" disabled selected required>
                 当サービスを知ったきっかけ*
               </option>
-              <option value="Twitter" selected required>
+              <option value="Twitter" required>
                 Twitter
               </option>
               <option value="Facebook" required>
@@ -112,7 +110,6 @@ function Contact() {
               <option value="その他" required>
                 その他
               </option>
-              {/* </optgroup> */}
             </select>
           </div>
           <button type="submit" className="mt-3 mb-3 button">

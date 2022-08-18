@@ -48,29 +48,53 @@ function NoteTimeline() {
 
   return (
     <div className="mt-3">
+      {/* <MediaQuery query="(max-width: 767px)">
+        <div className="center m-0 p-0">
+          <a href="https://note.com/polymathnyc" target="_blank">
+            <img src={note_logo} className="logo" />
+          </a>
+        </div>
+
+        {articles.map((article) => (
+          <div>
+            <div className="">
+              <img src={article.thumbnailURL} className="thumbnail" />
+            </div>
+            <div className="article-content-wrapper">
+              <div className="title-size">{article.title}</div>
+              <div className="date-size">
+                投稿日：{article.pubDate.slice(4, 16)}
+              </div>
+            </div>
+          </div>
+        ))}
+      </MediaQuery> */}
+
       <MediaQuery query="(max-width: 767px)">
         <div className="center">
           <a href="https://note.com/polymathnyc" target="_blank">
             <img src={note_logo} className="logo" />
           </a>
         </div>
-        {articles.map((article) => (
-          <a href={article.link} target="_blank">
-            <Row className="m-3 smartphone justify-content-center">
-              <Col className="p-0">
-                <div className="center">
-                  <img src={article.thumbnailURL} className="thumbnail" />
-                </div>
-              </Col>
-              <Col className="p-0 m-0">
-                <div className="title-size">{article.title}</div>
-                <div className="date-size">
-                  投稿日：{article.pubDate.slice(4, 16)}
-                </div>
-              </Col>
-            </Row>
-          </a>
-        ))}
+        <div className="article-wrapper">
+          {articles.map((article) => (
+            <a href={article.link} target="_blank">
+              <Row className="smartphone">
+                <Col className="p-1">
+                  <div className="center">
+                    <img src={article.thumbnailURL} className="thumbnail" />
+                  </div>
+                </Col>
+                <Col className="p-1">
+                  <div className="title-size">{article.title}</div>
+                  <div className="date-size">
+                    投稿日：{article.pubDate.slice(4, 16)}
+                  </div>
+                </Col>
+              </Row>
+            </a>
+          ))}
+        </div>
       </MediaQuery>
 
       <MediaQuery query="(min-width: 768px)">

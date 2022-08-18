@@ -4,10 +4,10 @@ import { Timeline } from "react-twitter-widgets";
 
 function TwitterTimeline() {
   return (
-    <div className="timeline_wrapper mt-3">
+    <div className="timeline_wrapper mt-3 mx-3">
       <div>
         <main>
-          <Timeline
+          <Timeline className="timeline-height"
             dataSource={{
               sourceType: "profile",
               screenName: "PolymathNYC",

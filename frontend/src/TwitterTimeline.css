@@ -2,3 +2,7 @@
     display: flex;
     justify-content: center;
 }
+
+.timeline-height {
+    height: 400px;
+}

@@ -40,10 +40,12 @@ a {
     margin: 0;
 }
 
-/* .article-wrapper {
-    flex: display;
+.article-wrapper {
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items:center
+}
 
-} */
+.article-content-wrapper{
+    display: flex;
+}
