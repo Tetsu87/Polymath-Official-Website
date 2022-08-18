@@ -4,7 +4,7 @@ const cors = require("cors");
 const nodemailer = require("nodemailer");
 
 const app = express();
-var config = require("./config");
+var config = require("./my_config");
 const PORT = parseInt(process.env.PORT) || 8080;
 
 app.use(cors());
@@ -42,7 +42,7 @@ router.post("/contact", (req, res) => {
   const options = req.body.options;
   const mail = {
     from: name,
-    to: config.postToTest,
+    to: config.postToTest2,
     subject: "Contact Form Submission",
     html: `<p>Name: ${name}</p>
                <p>Email: ${email}</p>
