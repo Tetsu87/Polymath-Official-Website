@@ -79,3 +79,17 @@ option {
 .pc {
     width: 400px;
 }
+
+.line-logo {
+  width: 75px;
+}
+
+.line-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.line-add-button {
+  color: #09b53b;
+  background-color: #09b53b;
+}

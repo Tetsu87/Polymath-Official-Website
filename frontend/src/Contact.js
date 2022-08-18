@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import Form from "react-bootstrap/Form";
 import "./Contact.css";
+import line from "./images/line.png";
 import MediaQuery from "react-responsive";
+import Button from "react-bootstrap/Button";
 
 function Contact() {
   const [status, setStatus] = useState("Submit");
@@ -115,6 +116,14 @@ function Contact() {
           <button type="submit" className="mt-3 mb-3 button">
             {status}
           </button>
+
+          <p className="text-center small-letter pc">
+            LINEでの相談も受付開始しました。お気軽にご連絡ください。
+          </p>
+
+          <a href="https://lin.ee/Rz2NZubS" target="_blank">
+            <p>aaaa</p>
+          </a>
         </MediaQuery>
 
         <MediaQuery query="(min-width: 768px)">
@@ -158,20 +167,70 @@ function Contact() {
           </div>
           <div>
             <select required id="options" className="mt-3 option-font pc">
-              <option required selected value=""> 当サービスを知ったきっかけ*</option>
-              <option required value="Twitter">Twitter</option>
-              <option required value="Facebook">Facebook</option>
-              <option required value="Youtube">Youtube</option>
-              <option required value="Note">Note</option>
-              <option required value="友人">友人</option>
-              <option required value="会社">会社</option>
-              <option required value="大学">大学</option>
-              <option required value="その他">その他</option>
+              <option required selected value="">
+                {" "}
+                当サービスを知ったきっかけ*
+              </option>
+              <option required value="Twitter">
+                Twitter
+              </option>
+              <option required value="Facebook">
+                Facebook
+              </option>
+              <option required value="Youtube">
+                Youtube
+              </option>
+              <option required value="Note">
+                Note
+              </option>
+              <option required value="友人">
+                友人
+              </option>
+              <option required value="会社">
+                会社
+              </option>
+              <option required value="大学">
+                大学
+              </option>
+              <option required value="その他">
+                その他
+              </option>
             </select>
           </div>
           <button type="submit" className="mt-3 mb-3 button">
             {status}
           </button>
+
+          <p className="text-center small-letter pc">
+            LINEでの相談も受付開始しました。お気軽にご連絡ください。
+          </p>
+
+          <style type="text/css">
+            {`
+    .btn-line {
+      background-color: #09b53b;
+      color: white;
+    }
+
+    .btn-xxl {
+      padding: 0.85rem 1.5rem;
+      font-size: 1.2rem;
+    }
+    `}
+          </style>
+
+          <a href="https://lin.ee/Rz2NZubS" target="_blank">
+            <div className="line-wrapper">
+              <div className="px-3">
+                <img src={line} className="line-logo" />
+              </div>
+              <div>
+                <Button variant="line" size="xxl">
+                  LINEで相談する
+                </Button>
+              </div>
+            </div>
+          </a>
         </MediaQuery>
       </div>
     </form>
