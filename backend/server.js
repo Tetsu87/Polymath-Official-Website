@@ -4,10 +4,16 @@ const cors = require("cors");
 const nodemailer = require("nodemailer");
 
 const app = express();
-var config = require("./my-config");
+var config = require("./config");
 const PORT = parseInt(process.env.PORT) || 8080;
 
 app.use(cors());
+// app.use(
+//   require("cors")({
+//     origin:"https://polymath-official-webpage.wl.r.appspot.com"
+//   })
+// );
+
 app.use(express.json());
 app.use("/", router);
 app.listen(PORT, () => console.log("Server Running"));
@@ -37,7 +43,7 @@ router.post("/contact", (req, res) => {
   const mail = {
     from: name,
     to: config.postToTest,
-    subject: "お問い合せ",
+    subject: "Contact Form Submission",
     html: `<p>Name: ${name}</p>
                <p>Email: ${email}</p>
                <p>Tel: ${tel}</p>
