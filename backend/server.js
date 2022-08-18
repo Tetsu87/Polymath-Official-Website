@@ -4,7 +4,7 @@ const cors = require("cors");
 const nodemailer = require("nodemailer");
 
 const app = express();
-var config = require("./config");
+var config = require("./my-config");
 const PORT = parseInt(process.env.PORT) || 8080;
 
 app.use(cors());
@@ -37,7 +37,7 @@ router.post("/contact", (req, res) => {
   const mail = {
     from: name,
     to: config.postToTest,
-    subject: "Contact Form Submission",
+    subject: "お問い合せ",
     html: `<p>Name: ${name}</p>
                <p>Email: ${email}</p>
                <p>Tel: ${tel}</p>
@@ -48,7 +48,7 @@ router.post("/contact", (req, res) => {
     if (error) {
       res.json({ status: "ERROR" });
     } else {
-      res.json({ status: "Message Sent Dayo" });
+      res.json({ status: "Message Sent" });
     }
   });
 });

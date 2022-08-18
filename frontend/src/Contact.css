@@ -8,6 +8,7 @@ input {
   background-color: blue;
   border: none;
   height: 30px;
+  color: white;
 }
 
 textarea {

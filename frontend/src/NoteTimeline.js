@@ -56,7 +56,7 @@ function NoteTimeline() {
         </div>
         {articles.map((article) => (
           <a href={article.link} target="_blank">
-            <Row className="m-3 smartphone">
+            <Row className="m-3 smartphone justify-content-center">
               <Col className="p-0">
                 <div className="center">
                   <img src={article.thumbnailURL} className="thumbnail" />
