@@ -20,7 +20,7 @@ function TwitterTimeline() {
       <div>
         <a
           class="twitter-timeline"
-          data-width="375"
+          data-width="320"
           data-height="600"
           data-theme="light"
           href="https://twitter.com/PolymathNYC?ref_src=twsrc%5Etfw"

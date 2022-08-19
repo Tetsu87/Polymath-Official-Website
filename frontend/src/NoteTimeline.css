@@ -3,11 +3,11 @@
 }
 
 .pc {
-    width: 450px;
+    width: 425px;
 }
 
 .smartphone {
-    width: 375px;
+    width: 350px;
 }
 
 .logo {
@@ -20,6 +20,10 @@
 
 .center {
     text-align: center;
+}
+
+.right {
+    text-align: right;
 }
 
 .title-size {

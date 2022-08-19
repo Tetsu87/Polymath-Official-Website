@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.feb157d3.css",
-    "main.js": "/static/js/main.ebd296da.js",
+    "main.css": "/static/css/main.55d184ed.css",
+    "main.js": "/static/js/main.94caa0ea.js",
     "static/js/787.eb30bc61.chunk.js": "/static/js/787.eb30bc61.chunk.js",
     "static/media/ikkei.jpg": "/static/media/ikkei.6397b12c8f427b60021b.jpg",
     "static/media/uw.png": "/static/media/uw.129decaa3053bcb41321.png",
@@ -10,17 +10,18 @@
     "static/media/usc.jpg": "/static/media/usc.4522e5a312b9e1f718b5.jpg",
     "static/media/kai.jpg": "/static/media/kai.ffc03a90bae59d1bb319.jpg",
     "static/media/texastech.png": "/static/media/texastech.dbb55a2b9772416e18db.png",
+    "static/media/line.png": "/static/media/line.99ebb67660a5abe864ef.png",
     "static/media/georgiatech.png": "/static/media/georgiatech.c5a22285ba9caed81936.png",
     "static/media/nyu.jpg": "/static/media/nyu.cd3422e41461d7f22762.jpg",
     "static/media/note_logo.png": "/static/media/note_logo.3e8a3d8a21f62422264c.png",
     "static/media/polymath_logo.jpg": "/static/media/polymath_logo.bcef02e76259218b7913.jpg",
     "index.html": "/index.html",
-    "main.feb157d3.css.map": "/static/css/main.feb157d3.css.map",
-    "main.ebd296da.js.map": "/static/js/main.ebd296da.js.map",
+    "main.55d184ed.css.map": "/static/css/main.55d184ed.css.map",
+    "main.94caa0ea.js.map": "/static/js/main.94caa0ea.js.map",
     "787.eb30bc61.chunk.js.map": "/static/js/787.eb30bc61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.feb157d3.css",
-    "static/js/main.ebd296da.js"
+    "static/css/main.55d184ed.css",
+    "static/js/main.94caa0ea.js"
   ]
 }

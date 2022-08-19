@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;700&family=Roboto:wght@300;400;500&display=swap");
+
+.headshot {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+.pale-background {
+    background-color: #FAFAFA;
+}
+
+.members-container {
+    display: flex;
+    justify-content: center;
+}
+
+.member-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member-container-sp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.member-profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.members-width {
+    width: 950px;
+}
+
+.members-width-sp {
+    width: 360px;
+}
+
+.members-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile {
+  text-align: center;
+  height: 360px;
+}
+
+.member-width {
+  max-width: 300px;
+}
+
+.member-width-sp {
+  max-width: 360px;
+}
+
+.book-link {
+  display: inline;
+  color: black;
+}
+
+.small-letter {
+    font-size: 14px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+p {
+  text-align: justify;
+  max-width: 950px;
+}
+
+.medium-letter {
+    font-size: 20px;
+}
+
+.font-bold {
+    font-weight: bold;
+}

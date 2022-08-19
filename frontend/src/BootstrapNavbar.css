@@ -2,26 +2,37 @@
   width: 250px;
 }
 
-.polymath-logo-offcanvas {
-  width: 120px;
+.navbar-font-size {
+  font-size: 14px;
 }
 
-.navbar {
-  font-size: 14px;
+.navbar-color {
+  color:gray;
 }
 
 .offcanvas-width {
   width: 200px;
 }
 
-.navbar-width {
-    width: 950px;
+.navbar-pc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* .offcanvas .offcanvas-end .offcanvas-md {
-    width: 250px;
-} */
+.navbar-pc-wrapper {
+  display: flex;
+  justify-content: center;
+}
 
-/* .offcanvas-horizontal-width {
-    width: 300px;
-} */
+.navbar-width {
+  width: 950px;
+}
+
+.nav-link-decoration {
+  text-decoration: none;
+}
+
+.polymath-logo-offcanvas {
+  width: 120px;
+}
