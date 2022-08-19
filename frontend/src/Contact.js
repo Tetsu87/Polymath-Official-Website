@@ -242,7 +242,7 @@ function Contact() {
     `}
           </style>
 
-          <a href="https://lin.ee/Rz2NZubS" target="_blank">
+          <a href="https://lin.ee/Rz2NZubS" target="_blank" className="line-button">
             <div className="line-wrapper">
               <div className="px-3">
                 <img src={line} className="line-logo" />

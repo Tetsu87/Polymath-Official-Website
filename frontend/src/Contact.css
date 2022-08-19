@@ -93,3 +93,7 @@ option {
   color: #09b53b;
   background-color: #09b53b;
 }
+
+a:hover {
+  /* background-color: white; */
+}

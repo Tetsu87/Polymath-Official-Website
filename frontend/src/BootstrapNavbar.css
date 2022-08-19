@@ -33,6 +33,14 @@
   text-decoration: none;
 }
 
-.polymath-logo-offcanvas {
-  width: 120px;
+.polymath-logo-sp {
+  width: 200px;
+}
+
+.nav-bg-sp {
+  background-color: white;
+}
+
+.show-top {
+  z-index: 100;
 }

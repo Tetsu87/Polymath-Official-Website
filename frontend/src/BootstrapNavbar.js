@@ -1,5 +1,6 @@
 import polymath_logo from "./images/polymath_logo.jpg";
 import "./BootstrapNavbar.css";
+import React from "react";
 import { useCallback, useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
@@ -7,48 +8,27 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import MediaQuery from "react-responsive";
+import Menu from "./Menu";
 
 function BootstrapNavbar() {
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
   return (
     <div>
       <MediaQuery query="(max-width: 767px)">
-        <Button variant="primary" onClick={handleShow}>
-          Launch
-        </Button>
-
-        <Offcanvas show={show} onHide={handleClose} placement="end">
-          <Offcanvas.Header closeButton>
-            <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-          </Offcanvas.Header>
-          <Offcanvas.Body>
-            <Nav
-              className="justify-content-around flex-grow-1 pe-3"
-              onClick={handleClose}
-            >
-              <Nav.Link href="#home">Home</Nav.Link>
-              <a type="button" href="#value">
-                aaa
-              </a>
-              <Nav.Link href="#team">Team</Nav.Link>
-              <Nav.Link href="#value">Value</Nav.Link>
-              <Nav.Link href="#achievements">Achievements</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
-              <Nav.Link href="#social">Social</Nav.Link>
-            </Nav>
-          </Offcanvas.Body>
-        </Offcanvas>
+        <div>
+          <Navbar fixed="top" className="justify-content-center nav-bg-sp">
+            <img src={polymath_logo} className="polymath-logo-sp" />
+          </Navbar>
+        </div>
+        <div id="outer-container" className="show-top">
+          <Menu
+            right
+            width={200}
+            pageWrapId={"page-wrap"}
+            outerContainerId={"outer-container"}
+          />
+        </div>
       </MediaQuery>
 
-
-
-
-
-
-      
       <MediaQuery query="(min-width: 768px)">
         <div className="navbar-pc-wrapper py-3">
           <div className="navbar-width px-3 pt-3">
