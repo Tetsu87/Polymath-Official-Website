@@ -82,7 +82,6 @@ option {
 
 .line-wrapper {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -102,10 +101,14 @@ option {
 
 .line-absolute {
   position: absolute;
-  top: 12px;
-  right: 13px;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   background-color: #06c755;
   font-family: 'M PLUS 1p', sans-serif;
   font-weight: 700;
   color: white;
+  width: 110px;
 }

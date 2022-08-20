@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import "./Contact.css";
-import line from "./images/line.png";
-import line_svg from "./images/line-messenger.svg";
-import line_base from "./images/line_login_base.png";
+import line_consult from "./images/line_consult.png";
 import MediaQuery from "react-responsive";
-import Button from "react-bootstrap/Button";
 
 function Contact() {
   const [status, setStatus] = useState("Submit");
@@ -42,7 +39,7 @@ function Contact() {
     <form onSubmit={handleSubmit}>
       <div className="form-wrapper">
         <MediaQuery query="(max-width: 767px)">
-          <p className="text-center small-letter smartphone-contact">
+          <p className="small-letter smartphone-contact">
             無料相談を随時承ってます。まずはお気軽にご連絡ください。
           </p>
           <div className="mb-1">
@@ -119,18 +116,15 @@ function Contact() {
             {status}
           </button>
 
-          <p className="text-center small-letter smartphone-contact">
-            簡単なご相談はLINEでも承っております。お気軽にどうぞ。
+          <p className="small-letter smartphone-contact">
+            簡単なご相談やご質問はLINEでも承っております。お気軽にどうぞ。
           </p>
 
           <a href="https://lin.ee/Rz2NZubS" target="_blank">
-              <div className="line-wrapper">
-                <div className="line-relative">
-                  <img src={line_base} className="line-logo" />
-                  <div className="line-absolute">LINEで相談</div>
-                </div>
-              </div>
-            </a>
+            <div className="line-wrapper">
+              <img src={line_consult} className="line-logo" />
+            </div>
+          </a>
         </MediaQuery>
 
         <MediaQuery query="(min-width: 768px)">
@@ -216,12 +210,17 @@ function Contact() {
             </p>
             <a href="https://lin.ee/Rz2NZubS" target="_blank">
               <div className="line-wrapper">
+                <img src={line_consult} className="line-logo" />
+              </div>
+            </a>
+            {/* <a href="https://lin.ee/Rz2NZubS" target="_blank">
+              <div className="line-wrapper">
                 <div className="line-relative">
                   <img src={line_base} className="line-logo" />
                   <div className="line-absolute">LINEで相談</div>
                 </div>
               </div>
-            </a>
+            </a> */}
           </div>
         </MediaQuery>
       </div>

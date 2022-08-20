@@ -24,7 +24,7 @@ function BootstrapNavbar() {
           <div id="outer-container">
             <Menu
               right
-              width={200}
+              width={180}
               pageWrapId={"page-wrap"}
               outerContainerId={"outer-container"}
               ï
