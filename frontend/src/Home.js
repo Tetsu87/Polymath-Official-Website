@@ -1,12 +1,12 @@
 import Contents from './Contents';
-import BootstrapNavbar from './BootstrapNavbar';
+import Navbar from './Navbar';
 import Footer from './Footer';
 import './Home.css';
 
 function Home() {
   return (
     <div>
-      <BootstrapNavbar />
+      <Navbar />
       <Contents />
       <Footer />
     </div>

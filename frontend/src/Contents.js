@@ -35,7 +35,8 @@ function Contents() {
           </div>
         </div>
       </MediaQuery>
-      <div className="subTitle pale-background pt-5 mt-5 px-3">
+      
+      <div className="subTitle pale-background pt-5 pb-3 mt-5 px-3">
         <a id="team" className="header-adjustment link-style-deactivate"> Meet The Team</a>
       </div>
 

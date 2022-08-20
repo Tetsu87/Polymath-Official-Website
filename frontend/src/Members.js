@@ -11,7 +11,7 @@ function Members() {
   return (
     <div className="pale-background">
       <MediaQuery query="(max-width: 767px)">
-      <div className="members-container">
+        <div className="members-container">
           <div className="members-width-sp">
             <div className="member-container-sp">
               <div className="member-width-sp">
@@ -22,7 +22,7 @@ function Members() {
                     Machine Learning Scientist
                   </div>
                   <div className="small-letter font-bold my-1">@ Amazon</div>
-                  <div className="small-letter px-4">
+                  <div className="small-letter px-4 pb-5">
                     <p>
                       高校卒業後に渡米。18年間、米国でキャリア形成をしてきました。ベンチャー、ブルームバーグ、J.P.
                       Morganを経て、現在はAmazonニューヨークでAIの研究開発に従事しています。
@@ -39,8 +39,6 @@ function Members() {
                     <p>
                       私達は米国GAFAMや投資銀行で働く現職エンジニアです。その3人が一丸となってあなたの留学をサポートさせて頂きます。留学を成功させ、私達と一緒にニューヨークやシリコンバレーで働きましょう！
                     </p>
-
-                  
                   </div>
                 </div>
               </div>
@@ -54,8 +52,10 @@ function Members() {
                   <div className="small-letter font-bold my-1">
                     @ University of Southern
                   </div>
-                  <div className="small-letter font-bold my-1 pb-2">California</div>
-                  <div className="small-letter px-4">
+                  <div className="small-letter font-bold my-1 pb-2">
+                    California
+                  </div>
+                  <div className="small-letter px-4 pb-5">
                     <p>
                       東工大院卒。大手金融機関にてデリバティブ・トレーダーとして10年間勤務。ニューヨーク駐在時にサーフィンを通じてPolymathのメンバーと出会う。未経験ながら複数の米国コンピューターサイエンス修士に合格。現在はLAの南カリフォルニア大学院に在籍。
                     </p>
@@ -69,7 +69,6 @@ function Members() {
                     <p>
                       「日本人にもっと世界で活躍してほしい。活躍できるはず！」それが私たちの信念です。皆様の挑戦のお手伝いが出来ることを楽しみにしています。合格後は一緒に喜びを分かち合い、共に励まし合い、グローバルに頑張りましょう！
                     </p>
-                  
                   </div>
                 </div>
               </div>
@@ -80,8 +79,10 @@ function Members() {
                   <div className="small-letter font-bold my-1">
                     Data Science Manager
                   </div>
-                  <div className="small-letter font-bold my-1">@ J.P.Morgan</div>
-                  <div className="small-letter px-4">
+                  <div className="small-letter font-bold my-1">
+                    @ J.P.Morgan
+                  </div>
+                  <div className="small-letter px-4 pb-5">
                     <p className="text-justify">
                       ブルームバーグ、ドイツ銀行、プロップトレーダー、データサイエンス講師、ビッグデータコンサルタント等を経て、現在はニューヨークのJ.P.
                       Morganでデータサイエンスチームのマネージャーを務めています。技術遷移の早いAI業界の中で、最新の技術の現場応用を率先して行っています。
@@ -107,14 +108,12 @@ function Members() {
                     <p>
                       Polymathでは他のメンバーと協力しながら進路に関する最新の情報の提供と共に、主にエッセイと推薦状の編集・添削を担当します。私はエンジニア兼文筆家としてあなたに多彩なアドバイスができるでしょう！
                     </p>
-                   
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </MediaQuery>
       <MediaQuery query="(min-width: 768px)">
         <div className="members-container">
@@ -128,7 +127,9 @@ function Members() {
                     Machine Learning Scientist
                   </div>
                   <div className="small-letter font-bold my-1">@ Amazon</div>
-                  <div className="small-letter font-bold my-1 pb-2 invisible">California</div>
+                  <div className="small-letter font-bold my-1 pb-2 invisible">
+                    California
+                  </div>
                   <div className="small-letter member-width px-1">
                     <p>
                       高校卒業後に渡米。18年間、米国でキャリア形成をしてきました。ベンチャー、ブルームバーグ、J.P.
@@ -159,7 +160,9 @@ function Members() {
                   <div className="small-letter font-bold my-1">
                     @ University of Southern
                   </div>
-                  <div className="small-letter font-bold my-1 pb-2">California</div>
+                  <div className="small-letter font-bold my-1 pb-2">
+                    California
+                  </div>
                   <div className="small-letter member-width px-1">
                     <p>
                       東工大院卒。大手金融機関にてデリバティブ・トレーダーとして10年間勤務。ニューヨーク駐在時にサーフィンを通じてPolymathのメンバーと出会う。未経験ながら複数の米国コンピューターサイエンス修士に合格。現在はLAの南カリフォルニア大学院に在籍。
@@ -183,8 +186,12 @@ function Members() {
                   <div className="small-letter font-bold my-1">
                     Data Science Manager
                   </div>
-                  <div className="small-letter font-bold my-1">@ J.P.Morgan</div>
-                  <div className="small-letter font-bold my-1 pb-2 invisible">California</div>
+                  <div className="small-letter font-bold my-1">
+                    @ J.P.Morgan
+                  </div>
+                  <div className="small-letter font-bold my-1 pb-2 invisible">
+                    California
+                  </div>
                   <div className="small-letter member-width px-1">
                     <p className="text-justify">
                       ブルームバーグ、ドイツ銀行、プロップトレーダー、データサイエンス講師、ビッグデータコンサルタント等を経て、現在はニューヨークのJ.P.
