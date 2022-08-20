@@ -1,5 +1,31 @@
+/* for smartphone */
+
+header {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+}
+
+.polymath-logo-sp {
+  width: 200px;
+}
+
+.image-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* for pc  */
+
 .polymath-logo {
   width: 250px;
+}
+
+.navbar-pc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar-font-size {
@@ -7,17 +33,7 @@
 }
 
 .navbar-color {
-  color:gray;
-}
-
-.offcanvas-width {
-  width: 200px;
-}
-
-.navbar-pc {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  color: gray;
 }
 
 .navbar-pc-wrapper {
@@ -33,14 +49,20 @@
   text-decoration: none;
 }
 
-.polymath-logo-sp {
-  width: 200px;
-}
 
-.nav-bg-sp {
-  background-color: white;
-}
 
-.show-top {
-  z-index: 100;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,6 +4,24 @@ html {
     scroll-behavior: smooth;
 }
 
+/* polymath introduction style */
+.intro-center {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-sp {
+font-size: 16px;
+width: 360px;
+margin-top: 75px;
+}
+
+.intro-pc {
+font-size: 16px;
+width: 950px;
+}
+
+/* polymath member's picture style */
 .headshot {
   width: 200px;
   height: 200px;
@@ -12,22 +30,7 @@ html {
   filter: grayscale(100%);
 }
 
-.intro-center {
-    display: flex;
-    justify-content: center;
-    /* margin-top: 100px; */
-}
-
-.intro-sp {
-  font-size: 16px;
-  width: 360px;
-}
-
-.intro-pc {
-  font-size: 16px;
-  width: 950px;
-}
-
+/* subtite style */
 .subTitle {
   font-size: 44px;
   font-family: "Cormorant Garamond", serif;
@@ -37,10 +40,12 @@ html {
   text-align: center;
 }
 
+/* background color applied for every other section */
 .pale-background {
     background-color: #FAFAFA;
 }
 
+/* text style */
 .book-link {
   display: inline;
   color: black;
@@ -67,6 +72,7 @@ p {
     font-weight: bold;
 }
 
+/* university logo style */
 .univ_logo_wrapper {
   text-align: center;
 }
@@ -76,6 +82,7 @@ p {
   margin: 0 15px 30px 15px;
 }
 
+/* achievements style */
 .achievements {
     margin-top: 100px;
     display: flex;
@@ -91,7 +98,6 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
-
 }
 
 li {
@@ -99,6 +105,7 @@ li {
   padding-bottom: 5px;
 }
 
+/* polymath value style  */
 .merits {
   font-size: 20px;
   font-weight: bold;
@@ -112,6 +119,7 @@ li {
   align-items: center;
 }
 
+/* social section style  */
 .social-smartphone {
     display: flex;
     flex-direction: column;
@@ -121,4 +129,21 @@ li {
 .social-pc {
     display: flex;
     justify-content: center;
+}
+
+/* posiiton adjustments --- as a header is fixed, positive padding and negative margin were added to keep the position when an internal link is clicked */
+
+.header-adjustment {
+  padding-top: 70px;
+  margin-top: -70px;
+}
+
+.link-style-deactivate {
+  color: black;
+  text-decoration: none;
+}
+
+.link-style-deactivate:hover {
+  color: black;
+  text-decoration: none;
 }

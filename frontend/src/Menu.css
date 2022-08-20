@@ -3,8 +3,10 @@
     position: fixed;
     width: 36px;
     height: 30px;
-    right: 36px;
-    top: 360px;
+    right: 21px;
+    top: 18px;
+    /* top: 50px; */
+    /* z-index: 1031; */
   }
 
 #react-burger-menu-btn {
