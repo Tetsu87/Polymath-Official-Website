@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.adb5dde5.css",
+    "main.css": "/static/css/main.15f8cbb3.css",
     "main.js": "/static/js/main.e9f5987c.js",
     "static/js/787.eb30bc61.chunk.js": "/static/js/787.eb30bc61.chunk.js",
     "static/media/uw.png": "/static/media/uw.129decaa3053bcb41321.png",
@@ -15,12 +15,12 @@
     "static/media/note_logo.png": "/static/media/note_logo.3e8a3d8a21f62422264c.png",
     "static/media/polymath_logo.jpg": "/static/media/polymath_logo.bcef02e76259218b7913.jpg",
     "index.html": "/index.html",
-    "main.adb5dde5.css.map": "/static/css/main.adb5dde5.css.map",
+    "main.15f8cbb3.css.map": "/static/css/main.15f8cbb3.css.map",
     "main.e9f5987c.js.map": "/static/js/main.e9f5987c.js.map",
     "787.eb30bc61.chunk.js.map": "/static/js/787.eb30bc61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adb5dde5.css",
+    "static/css/main.15f8cbb3.css",
     "static/js/main.e9f5987c.js"
   ]
 }
