@@ -259,7 +259,7 @@ function Contents() {
       <div className="py-3">
         <div className="subTitle">
           <MediaQuery query="(max-width: 767px)">
-            <a id="social" className="link-style-deactivate">
+            <a id="social" className="header-adjustment link-style-deactivate">
               Social
             </a>
           </MediaQuery>

@@ -8,11 +8,6 @@ var config = require("./my_config");
 const PORT = parseInt(process.env.PORT) || 8080;
 
 app.use(cors());
-// app.use(
-//   require("cors")({
-//     origin:"https://polymath-official-webpage.wl.r.appspot.com"
-//   })
-// );
 
 app.use(express.json());
 app.use("/", router);
@@ -42,7 +37,7 @@ router.post("/contact", (req, res) => {
   const options = req.body.options;
   const mail = {
     from: name,
-    to: config.postToTest2,
+    to: config.postToAll,
     subject: "Contact Form Submission",
     html: `<p>Name: ${name}</p>
                <p>Email: ${email}</p>

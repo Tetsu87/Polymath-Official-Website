@@ -1,7 +1,6 @@
 import React from "react";
 import "./TwitterTimeline.css";
-import { Timeline } from "react-twitter-widgets";
-import { useCallback, useEffect, useState } from "react";
+import {useEffect} from "react";
 
 function TwitterTimeline() {
   useEffect(() => {
