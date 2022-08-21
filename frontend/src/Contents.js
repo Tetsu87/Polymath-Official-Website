@@ -278,12 +278,12 @@ function Contents() {
         <MediaQuery query="(min-width: 768px)">
           <div className="social-pc">
             <div className="social-width-pc">
-              <div className="social-wrapper-pc px-2">
+              <div className="social-wrapper-pc">
                 <div>
                   <NoteTimeline />
                 </div>
                 <div>
-                  <TwitterTimeline />
+                  <TwitterTimeline className="px-5"/>
                 </div>
               </div>
             </div>
