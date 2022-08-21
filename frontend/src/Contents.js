@@ -1,6 +1,6 @@
 import columbia from "./images/columbia.jpg";
 import usc from "./images/usc.jpg";
-import uw from "./images/uw.png";
+import uw from "./images/uw.jpg";
 import georgiatech from "./images/georgiatech.png";
 import nyu from "./images/nyu.jpg";
 import texastech from "./images/texastech.png";

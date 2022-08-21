@@ -1,10 +1,7 @@
 import ikkei from "./images/ikkei.jpg";
 import kai from "./images/kai.jpg";
-import alex from "./images/alex.png";
+import alex from "./images/alex.jpg";
 import "./Members.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import MediaQuery from "react-responsive";
 
 function Members() {
