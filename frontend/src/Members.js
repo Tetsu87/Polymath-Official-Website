@@ -118,7 +118,7 @@ function Members() {
       <MediaQuery query="(min-width: 768px)">
         <div className="members-container">
           <div className="members-width">
-            <div className="member-container">
+            <div className="member-container px-2">
               <div className="member-width">
                 <div className="member-profile-container">
                   <img src={ikkei} className="headshot" />

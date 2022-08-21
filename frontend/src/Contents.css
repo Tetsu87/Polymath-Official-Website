@@ -72,15 +72,30 @@ p {
     font-weight: bold;
 }
 
-/* university logo style */
-.univ_logo_wrapper {
+/* polymath value style  */
+.merits-title {
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
 }
 
-.univ_logo {
-  height: 50px;
-  margin: 0 15px 30px 15px;
+.merits-title-sp {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
 }
+
+.polymath-value {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value-contents-width-sp {
+  max-width: 360px;
+}
+
 
 /* achievements style */
 .achievements {
@@ -90,11 +105,15 @@ p {
     align-items: center;
 }
 
-.achievements_list {
+.achievements-list {
   font-size: 16px;
 }
 
-.ul_align_center {
+.achievements-list-sp {
+  font-size: 14px;
+}
+
+.ul-align-center {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -105,19 +124,26 @@ li {
   padding-bottom: 5px;
 }
 
-/* polymath value style  */
-.merits {
-  font-size: 20px;
-  font-weight: bold;
+.li-width-sp {
+  max-width: 320px;
+  padding-right: 20px;
+}
+
+/* university logo style */
+.univ-logo-wrapper {
   text-align: center;
 }
 
-.why-polymath {
-  font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.univ-logo-wrapper-sp {
+  text-align: center;
+  max-width: 360px;
 }
+
+.univ-logo {
+  height: 50px;
+  margin: 0 15px 30px 15px;
+}
+
 
 /* social section style  */
 .social-smartphone {
@@ -129,6 +155,15 @@ li {
 .social-pc {
     display: flex;
     justify-content: center;
+}
+
+.social-width-pc {
+  width: 950px;
+}
+
+.social-wrapper-pc {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* posiiton adjustments --- as a header is fixed, positive padding and negative margin were added to keep the position when an internal link is clicked */

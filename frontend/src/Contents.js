@@ -51,28 +51,78 @@ function Contents() {
         </a>
       </div>
 
-      <div className="why-polymath px-5">
-        <div className="merits mb-3">Polymathは最新の情報を持っています</div>
-        <p>
-          私達はニューヨークとロサンゼルスを拠点とし、米国大学留学・就職における情報戦の最前線にいます。現地のアドミッション、現役大学生、卒業生のネットワークを通じて常に最新の動向を把握しています。
-        </p>
+      <MediaQuery query="(max-width: 767px)">
+        <div className="polymath-value">
+          <div className="merits-title-sp mb-3">
+            Polymathは最新の情報を
+            <br />
+            持っています
+          </div>
+          <p className="px-4 pb-4 value-contents-width-sp">
+            私達はニューヨークとロサンゼルスを拠点とし、米国大学留学・就職における情報戦の最前線にいます。現地のアドミッション、現役大学生、卒業生のネットワークを通じて常に最新の動向を把握しています。
+          </p>
 
-        <div className="merits mb-3">​米国の第一線エンジニアによる指導</div>
-        <p>
-          米国の第一線で活躍するエンジニア陣があなたの留学をバックアップします。アドバイザーは現役のデータサイエンティスト、ビッグデータエンジニア、デリバティブトレーダー、現役CS大学院生なので、テクニカルなエッセイの添削が可能です。
-        </p>
-        <p>
-          例えば、「AIに興味があります」というエッセイと、「トレーディングフロアのチャット履歴を使ってオプション・プライスを予測する深層学習GPT-3モデル構築したいので、ヤン・ルカン教授とデビッド・ローゼンバーグ教授の授業を履修予定です」というエッセイではどちらが大学のアドミッションを唸らせるかは一目瞭然でしょう。
-        </p>
-        <div className="merits mb-3">​チームであなたの成功にコミットします</div>
-        <p>
-          他の留学斡旋会社とは異なり、Polymathではチームであなたの留学をサポートします。専門知識を有する複数のアドバイザーと何度もディスカッションを重ねていくことで、合格の可能性を限りなく高めることができるためです。私達は一切妥協をしません。徹底的に話し合いを重ねて一緒に合格を勝ち取りましょう。
-        </p>
-        <div className="merits mb-3">アドバイザー全員が米国理系大学院卒</div>
-        <p>
-          実際に経験をした人のみが専門性の高いアドバイスをすることができます。Polymathのアドバイザー陣は全員が米国理系大学院卒なので、実体験に基づく、本やウェブサイトに載っていないような留学のリアルをお伝え致します。
-        </p>
-      </div>
+          <div className="merits-title-sp mb-3">
+            ​米国の第一線エンジニア
+            <br />
+            による指導
+          </div>
+          <p className="px-4 value-contents-width-sp">
+            米国の第一線で活躍するエンジニア陣があなたの留学をバックアップします。アドバイザーは現役のデータサイエンティスト、ビッグデータエンジニア、デリバティブトレーダー、現役CS大学院生なので、テクニカルなエッセイの添削が可能です。
+          </p>
+          <p className="px-4 pb-4 value-contents-width-sp">
+            例えば、「AIに興味があります」というエッセイと、「トレーディングフロアのチャット履歴を使ってオプション・プライスを予測する深層学習GPT-3モデル構築したいので、ヤン・ルカン教授とデビッド・ローゼンバーグ教授の授業を履修予定です」というエッセイではどちらが大学のアドミッションを唸らせるかは一目瞭然でしょう。
+          </p>
+          <div className="merits-title-sp mb-3">
+            ​チームであなたの成功に
+            <br />
+            コミットします
+          </div>
+          <p className="px-4 pb-4 value-contents-width-sp">
+            他の留学斡旋会社とは異なり、Polymathではチームであなたの留学をサポートします。専門知識を有する複数のアドバイザーと何度もディスカッションを重ねていくことで、合格の可能性を限りなく高めることができるためです。私達は一切妥協をしません。徹底的に話し合いを重ねて一緒に合格を勝ち取りましょう。
+          </p>
+          <div className="merits-title-sp mb-3">
+            アドバイザー全員が
+            <br />
+            米国理系大学院卒
+          </div>
+          <p className="px-4 value-contents-width-sp">
+            実際に経験をした人のみが専門性の高いアドバイスをすることができます。Polymathのアドバイザー陣は全員が米国理系大学院卒なので、実体験に基づく、本やウェブサイトに載っていないような留学のリアルをお伝え致します。
+          </p>
+        </div>
+      </MediaQuery>
+      <MediaQuery query="(min-width: 768px)">
+        <div className="polymath-value">
+          <div className="merits-title mb-3">
+            Polymathは最新の情報を持っています
+          </div>
+          <p className="px-3">
+            私達はニューヨークとロサンゼルスを拠点とし、米国大学留学・就職における情報戦の最前線にいます。現地のアドミッション、現役大学生、卒業生のネットワークを通じて常に最新の動向を把握しています。
+          </p>
+
+          <div className="merits-title mb-3">
+            ​米国の第一線エンジニアによる指導
+          </div>
+          <p className="px-3">
+            米国の第一線で活躍するエンジニア陣があなたの留学をバックアップします。アドバイザーは現役のデータサイエンティスト、ビッグデータエンジニア、デリバティブトレーダー、現役CS大学院生なので、テクニカルなエッセイの添削が可能です。
+          </p>
+          <p className="px-3">
+            例えば、「AIに興味があります」というエッセイと、「トレーディングフロアのチャット履歴を使ってオプション・プライスを予測する深層学習GPT-3モデル構築したいので、ヤン・ルカン教授とデビッド・ローゼンバーグ教授の授業を履修予定です」というエッセイではどちらが大学のアドミッションを唸らせるかは一目瞭然でしょう。
+          </p>
+          <div className="merits-title mb-3">
+            ​チームであなたの成功にコミットします
+          </div>
+          <p className="px-3">
+            他の留学斡旋会社とは異なり、Polymathではチームであなたの留学をサポートします。専門知識を有する複数のアドバイザーと何度もディスカッションを重ねていくことで、合格の可能性を限りなく高めることができるためです。私達は一切妥協をしません。徹底的に話し合いを重ねて一緒に合格を勝ち取りましょう。
+          </p>
+          <div className="merits-title mb-3">
+            アドバイザー全員が米国理系大学院卒
+          </div>
+          <p className="px-3">
+            実際に経験をした人のみが専門性の高いアドバイスをすることができます。Polymathのアドバイザー陣は全員が米国理系大学院卒なので、実体験に基づく、本やウェブサイトに載っていないような留学のリアルをお伝え致します。
+          </p>
+        </div>
+      </MediaQuery>
 
       <div className="achievements pale-background pt-5">
         <div className="subTitle">
@@ -85,34 +135,66 @@ function Contents() {
         </div>
         <p className="text-center">直近3年間実績</p>
 
-        <div className="univ_logo_wrapper py-3">
-          <img src={columbia} className="univ_logo" />
-          <img src={usc} className="univ_logo" />
-          <img src={uw} className="univ_logo" />
-          <img src={georgiatech} className="univ_logo" />
-          <img src={nyu} className="univ_logo" />
-          <img src={texastech} className="univ_logo" />
-        </div>
-
-        <div className="achievements_list px-3 pb-5">
-          <div className="ul_align_center py-3">
-            <ul>
-              <li>Columbia University - MS in Data Science</li>
-              <li>
-                University of Southern California - MS in Computer Science
-              </li>
-              <li>New York University - MS in Electrical and Computer Eng</li>
-              <li>University of Washington - MS in Computer Science</li>
-              <li>University of San Fransisco - MS in Computer Science</li>
-              <li>Rutgers University - MS in Computer Science</li>
-              <li>Georgia Tech - MS in Analytics</li>
-              <li>Georgia Tech - MS in Computer Science</li>
-              <li>Texas Tech University - Medical Residency</li>
-              <li>Flushing Medical Center - Medical Residency</li>
-              <li> Montefiore Medical Center - Medical Fellowship</li>
-            </ul>
+        <MediaQuery query="(max-width: 767px)">
+          <div className="univ-logo-wrapper-sp py-3">
+            <img src={columbia} className="univ-logo" />
+            <img src={usc} className="univ-logo" />
+            <img src={uw} className="univ-logo" />
+            <img src={georgiatech} className="univ-logo" />
+            <img src={nyu} className="univ-logo" />
+            <img src={texastech} className="univ-logo" />
           </div>
-        </div>
+
+          <div className="achievements-list-sp  pb-5">
+            <div className="ul-align-center py-3">
+              <ul>
+                <li className="li-width-sp">Columbia University - MS in Data Science</li>
+                <li className="li-width-sp">
+                  University of Southern California - MS in Computer Science
+                </li>
+                <li className="li-width-sp">New York University - MS in Electrical and Computer Eng</li>
+                <li className="li-width-sp">University of Washington - MS in Computer Science</li>
+                <li className="li-width-sp">University of San Fransisco - MS in Computer Science</li>
+                <li className="li-width-sp">Rutgers University - MS in Computer Science</li>
+                <li className="li-width-sp">Georgia Tech - MS in Analytics</li>
+                <li className="li-width-sp">Georgia Tech - MS in Computer Science</li>
+                <li className="li-width-sp">Texas Tech University - Medical Residency</li>
+                <li className="li-width-sp">Flushing Medical Center - Medical Residency</li>
+                <li className="li-width-sp"> Montefiore Medical Center - Medical Fellowship</li>
+              </ul>
+            </div>
+          </div>
+        </MediaQuery>
+        <MediaQuery query="(min-width: 768px)">
+          <div className="univ-logo-wrapper py-3">
+            <img src={columbia} className="univ-logo" />
+            <img src={usc} className="univ-logo" />
+            <img src={uw} className="univ-logo" />
+            <img src={georgiatech} className="univ-logo" />
+            <img src={nyu} className="univ-logo" />
+            <img src={texastech} className="univ-logo" />
+          </div>
+
+          <div className="achievements-list px-3 pb-5">
+            <div className="ul-align-center py-3">
+              <ul>
+                <li>Columbia University - MS in Data Science</li>
+                <li>
+                  University of Southern California - MS in Computer Science
+                </li>
+                <li>New York University - MS in Electrical and Computer Eng</li>
+                <li>University of Washington - MS in Computer Science</li>
+                <li>University of San Fransisco - MS in Computer Science</li>
+                <li>Rutgers University - MS in Computer Science</li>
+                <li>Georgia Tech - MS in Analytics</li>
+                <li>Georgia Tech - MS in Computer Science</li>
+                <li>Texas Tech University - Medical Residency</li>
+                <li>Flushing Medical Center - Medical Residency</li>
+                <li> Montefiore Medical Center - Medical Fellowship</li>
+              </ul>
+            </div>
+          </div>
+        </MediaQuery>
       </div>
 
       <div className="contact bg-primary text-light pt-3 pb-5">
@@ -138,8 +220,16 @@ function Contents() {
         </MediaQuery>
         <MediaQuery query="(min-width: 768px)">
           <div className="social-pc">
-            <NoteTimeline />
-            <TwitterTimeline />
+            <div className="social-width-pc">
+              <div className="social-wrapper-pc px-2">
+                <div>
+                  <NoteTimeline />
+                </div>
+                <div>
+                  <TwitterTimeline />
+                </div>
+              </div>
+            </div>
           </div>
         </MediaQuery>
       </div>
