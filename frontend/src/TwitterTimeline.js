@@ -16,7 +16,7 @@ function TwitterTimeline() {
   }, []);
 
   return (
-    <div className="timeline-wrapper mt-3 ">
+    <div className="timeline-wrapper mt-3">
       <div>
         <a
           class="twitter-timeline"

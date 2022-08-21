@@ -163,7 +163,7 @@ li {
 
 .social-wrapper-pc {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around 
 }
 
 /* posiiton adjustments --- as a header is fixed, positive padding and negative margin were added to keep the position when an internal link is clicked */
