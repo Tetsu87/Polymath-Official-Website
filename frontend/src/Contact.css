@@ -1,3 +1,4 @@
+/* import google font for a line logo*/
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&display=swap');
 
 .form-wrapper {
@@ -11,6 +12,7 @@ input {
   border: none;
   height: 30px;
   color: white;
+  border-radius: 5px;
 }
 
 textarea {
@@ -18,6 +20,7 @@ textarea {
   background-color: blue;
   color: white;
   border: none;
+  border-radius: 5px;
 }
 
 select {
@@ -25,6 +28,8 @@ select {
   color: white;
   height: 30px;
   cursor: pointer;
+  border: none;
+  border-radius: 5px;
 }
 
 .option-font {
@@ -65,10 +70,11 @@ option {
   color: blue;
   background-color: white;
   border: none;
-  font-size: 15px;
+  border-radius: 10px;
+  font-size: 16px;
   font-weight: bold;
-  width: 100px;
-  height: 32px;
+  width: 110px;
+  height: 36px;
   text-align: center;
 }
 
@@ -87,6 +93,7 @@ option {
 
 .line-logo {
   width: 175px;
+  border-radius: 10px;
 }
 
 .contact-wrapper-pc {
@@ -95,20 +102,3 @@ option {
   align-items: center;
 }
 
-.line-relative {
-  position: relative;
-}
-
-.line-absolute {
-  position: absolute;
-  top: 50%;
-  left: 65%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #06c755;
-  font-family: 'M PLUS 1p', sans-serif;
-  font-weight: 700;
-  color: white;
-  width: 110px;
-}

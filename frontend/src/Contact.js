@@ -213,14 +213,6 @@ function Contact() {
                 <img src={line_consult} className="line-logo" />
               </div>
             </a>
-            {/* <a href="https://lin.ee/Rz2NZubS" target="_blank">
-              <div className="line-wrapper">
-                <div className="line-relative">
-                  <img src={line_base} className="line-logo" />
-                  <div className="line-absolute">LINEで相談</div>
-                </div>
-              </div>
-            </a> */}
           </div>
         </MediaQuery>
       </div>
