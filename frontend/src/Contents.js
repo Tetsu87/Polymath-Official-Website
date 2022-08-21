@@ -72,7 +72,7 @@ function Contents() {
             <br />
             持っています
           </div>
-          <p className="px-4 pb-4 value-contents-width-sp">
+          <p className="px-4 pb-4 value-contents-width-sp value-font-size-sp">
             私達はニューヨークとロサンゼルスを拠点とし、米国大学留学・就職における情報戦の最前線にいます。現地のアドミッション、現役大学生、卒業生のネットワークを通じて常に最新の動向を把握しています。
           </p>
 
@@ -81,10 +81,10 @@ function Contents() {
             <br />
             による指導
           </div>
-          <p className="px-4 value-contents-width-sp">
+          <p className="px-4 value-contents-width-sp value-font-size-sp">
             米国の第一線で活躍するエンジニア陣があなたの留学をバックアップします。アドバイザーは現役のデータサイエンティスト、ビッグデータエンジニア、デリバティブトレーダー、現役CS大学院生なので、テクニカルなエッセイの添削が可能です。
           </p>
-          <p className="px-4 pb-4 value-contents-width-sp">
+          <p className="px-4 pb-4 value-contents-width-sp value-font-size-sp">
             例えば、「AIに興味があります」というエッセイと、「トレーディングフロアのチャット履歴を使ってオプション・プライスを予測する深層学習GPT-3モデル構築したいので、ヤン・ルカン教授とデビッド・ローゼンバーグ教授の授業を履修予定です」というエッセイではどちらが大学のアドミッションを唸らせるかは一目瞭然でしょう。
           </p>
           <div className="merits-title-sp mb-3">
@@ -92,7 +92,7 @@ function Contents() {
             <br />
             コミットします
           </div>
-          <p className="px-4 pb-4 value-contents-width-sp">
+          <p className="px-4 pb-4 value-contents-width-sp value-font-size-sp">
             他の留学斡旋会社とは異なり、Polymathではチームであなたの留学をサポートします。専門知識を有する複数のアドバイザーと何度もディスカッションを重ねていくことで、合格の可能性を限りなく高めることができるためです。私達は一切妥協をしません。徹底的に話し合いを重ねて一緒に合格を勝ち取りましょう。
           </p>
           <div className="merits-title-sp mb-3">
@@ -100,7 +100,7 @@ function Contents() {
             <br />
             米国理系大学院卒
           </div>
-          <p className="px-4 value-contents-width-sp">
+          <p className="px-4 value-contents-width-sp value-font-size-sp">
             実際に経験をした人のみが専門性の高いアドバイスをすることができます。Polymathのアドバイザー陣は全員が米国理系大学院卒なので、実体験に基づく、本やウェブサイトに載っていないような留学のリアルをお伝え致します。
           </p>
         </div>
@@ -158,12 +158,12 @@ function Contents() {
 
         <MediaQuery query="(max-width: 767px)">
           <div className="univ-logo-wrapper-sp py-3">
-            <img src={columbia} className="univ-logo" />
-            <img src={usc} className="univ-logo" />
-            <img src={uw} className="univ-logo" />
-            <img src={georgiatech} className="univ-logo" />
-            <img src={nyu} className="univ-logo" />
-            <img src={texastech} className="univ-logo" />
+            <img src={columbia} className="univ-logo" loading="lazy" />
+            <img src={usc} className="univ-logo" loading="lazy" />
+            <img src={uw} className="univ-logo" loading="lazy" />
+            <img src={georgiatech} className="univ-logo" loading="lazy" />
+            <img src={nyu} className="univ-logo" loading="lazy" />
+            <img src={texastech} className="univ-logo" loading="lazy" />
           </div>
 
           <div className="achievements-list-sp  pb-5">
@@ -207,12 +207,12 @@ function Contents() {
         </MediaQuery>
         <MediaQuery query="(min-width: 768px)">
           <div className="univ-logo-wrapper py-3">
-            <img src={columbia} className="univ-logo" />
-            <img src={usc} className="univ-logo" />
-            <img src={uw} className="univ-logo" />
-            <img src={georgiatech} className="univ-logo" />
-            <img src={nyu} className="univ-logo" />
-            <img src={texastech} className="univ-logo" />
+            <img src={columbia} className="univ-logo" loading="lazy" />
+            <img src={usc} className="univ-logo" loading="lazy" />
+            <img src={uw} className="univ-logo" loading="lazy" />
+            <img src={georgiatech} className="univ-logo" loading="lazy" />
+            <img src={nyu} className="univ-logo" loading="lazy" />
+            <img src={texastech} className="univ-logo" loading="lazy" />
           </div>
 
           <div className="achievements-list px-3 pb-5">
@@ -283,7 +283,7 @@ function Contents() {
                   <NoteTimeline />
                 </div>
                 <div>
-                  <TwitterTimeline className="px-5"/>
+                  <TwitterTimeline className="px-5" />
                 </div>
               </div>
             </div>

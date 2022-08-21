@@ -96,6 +96,10 @@ p {
   max-width: 360px;
 }
 
+.value-font-size-sp {
+  font-size: 14px;
+}
+
 
 /* achievements style */
 .achievements {

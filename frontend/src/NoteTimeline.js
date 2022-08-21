@@ -1,5 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
-import Card from "react-bootstrap/Card";
+import React, { useEffect, useState } from "react";
 import "./NoteTimeline.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -60,7 +59,7 @@ function NoteTimeline() {
               <Row className="smartphone">
                 <Col className="p-1">
                   <div className="center">
-                    <img src={article.thumbnailURL} className="thumbnail" />
+                    <img src={article.thumbnailURL} className="thumbnail" loading="lazy"/>
                   </div>
                 </Col>
                 <Col className="p-1">
@@ -86,7 +85,7 @@ function NoteTimeline() {
             <Row className="my-2 pc">
               <Col className="p-0 m-0">
                 <div className="center">
-                  <img src={article.thumbnailURL} className="thumbnail" />
+                  <img src={article.thumbnailURL} className="thumbnail" loading="lazy"/>
                 </div>
               </Col>
               <Col className="p-0 m-0">

@@ -3,6 +3,7 @@ import "./TwitterTimeline.css";
 import {useEffect} from "react";
 
 function TwitterTimeline() {
+  // technical source https://zenn.dev/catnose99/articles/329d7d61968efb
   useEffect(() => {
     // read script
     const script = document.createElement("script");
