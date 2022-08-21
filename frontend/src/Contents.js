@@ -16,7 +16,7 @@ function Contents() {
     <div>
       <MediaQuery query="(max-width: 767px)">
         <div className="intro-center">
-        <a id="home" className="header-adjustment link-style-deactivate"></a>
+          <a id="home" className="header-adjustment link-style-deactivate"></a>
           <div className="intro-sp px-4 text-justify">
             Polymathはニューヨークとロサンゼルスを拠点とする、理系専門留学コンサルティングファームです。アドバイザーは米国の第一線で働くGAFAM・外資投資銀行エンジニア、現役CS大学院生で構成されており、理系大学留学・就職、そして医師の臨床研修（レジデンシー、フェローシップ）における情報戦の最前線にいます。複数のアドバイザーが一丸となりチームであなたの留学を、志望校選定から、エッセイ添削、出願、合格まで力強くバックアップ致します。
             <br />
@@ -35,15 +35,20 @@ function Contents() {
           </div>
         </div>
       </MediaQuery>
-      
+
       <div className="subTitle pale-background pt-5 pb-3 mt-5 px-3">
-        <a id="team" className="header-adjustment link-style-deactivate"> Meet The Team</a>
+        <a id="team" className="header-adjustment link-style-deactivate">
+          {" "}
+          Meet The Team
+        </a>
       </div>
 
       <Members />
 
       <div className="subTitle mt-5 mb-4">
-        <a id="value" className="header-adjustment link-style-deactivate">Why Polymath?</a>
+        <a id="value" className="header-adjustment link-style-deactivate">
+          Why Polymath?
+        </a>
       </div>
 
       <div className="why-polymath px-5">
@@ -71,7 +76,12 @@ function Contents() {
 
       <div className="achievements pale-background pt-5">
         <div className="subTitle">
-          <a id="achievements" className="header-adjustment link-style-deactivate">Achievements</a>
+          <a
+            id="achievements"
+            className="header-adjustment link-style-deactivate"
+          >
+            Achievements
+          </a>
         </div>
         <p className="text-center">直近3年間実績</p>
 
@@ -107,19 +117,23 @@ function Contents() {
 
       <div className="contact bg-primary text-light pt-3 pb-5">
         <div className="subTitle text-light my-3">
-          <a id="contact" className="header-adjustment link-style-deactivate">Contact</a>
+          <a id="contact" className="header-adjustment link-style-deactivate">
+            Contact
+          </a>
         </div>
         <Contact />
       </div>
 
       <div className="py-3">
         <div className="subTitle">
-          <a id="social" className="header-adjustment link-style-deactivate">Social</a>
+          <a id="social" className="header-adjustment link-style-deactivate">
+            Social
+          </a>
         </div>
         <MediaQuery query="(max-width: 767px)">
           <div className="social-smartphone">
             <NoteTimeline />
-            <TwitterTimeline/>
+            <TwitterTimeline />
           </div>
         </MediaQuery>
         <MediaQuery query="(min-width: 768px)">
