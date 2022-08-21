@@ -37,18 +37,32 @@ function Contents() {
       </MediaQuery>
 
       <div className="subTitle pale-background pt-5 pb-3 mt-5 px-3">
-        <a id="team" className="header-adjustment link-style-deactivate">
-          {" "}
-          Meet The Team
-        </a>
+        <MediaQuery query="(max-width: 767px)">
+          <a id="team" className="header-adjustment link-style-deactivate">
+            Meet The Team
+          </a>
+        </MediaQuery>
+
+        <MediaQuery query="(min-width: 768px)">
+          <a id="team" className="link-style-deactivate">
+            Meet The Team
+          </a>
+        </MediaQuery>
       </div>
 
       <Members />
 
       <div className="subTitle mt-5 mb-4">
-        <a id="value" className="header-adjustment link-style-deactivate">
-          Why Polymath?
-        </a>
+        <MediaQuery query="(max-width: 767px)">
+          <a id="value" className="header-adjustment link-style-deactivate">
+            Why Polymath?
+          </a>
+        </MediaQuery>
+        <MediaQuery query="(min-width: 768px)">
+          <a id="value" className="link-style-deactivate">
+            Why Polymath?
+          </a>
+        </MediaQuery>
       </div>
 
       <MediaQuery query="(max-width: 767px)">
@@ -126,12 +140,19 @@ function Contents() {
 
       <div className="achievements pale-background pt-5">
         <div className="subTitle">
-          <a
-            id="achievements"
-            className="header-adjustment link-style-deactivate"
-          >
-            Achievements
-          </a>
+          <MediaQuery query="(max-width: 767px)">
+            <a
+              id="achievements"
+              className="header-adjustment link-style-deactivate"
+            >
+              Achievements
+            </a>
+          </MediaQuery>
+          <MediaQuery query="(min-width: 768px)">
+            <a id="achievements" className="link-style-deactivate">
+              Achievements
+            </a>
+          </MediaQuery>
         </div>
         <p className="text-center">直近3年間実績</p>
 
@@ -148,19 +169,38 @@ function Contents() {
           <div className="achievements-list-sp  pb-5">
             <div className="ul-align-center py-3">
               <ul>
-                <li className="li-width-sp">Columbia University - MS in Data Science</li>
+                <li className="li-width-sp">
+                  Columbia University - MS in Data Science
+                </li>
                 <li className="li-width-sp">
                   University of Southern California - MS in Computer Science
                 </li>
-                <li className="li-width-sp">New York University - MS in Electrical and Computer Eng</li>
-                <li className="li-width-sp">University of Washington - MS in Computer Science</li>
-                <li className="li-width-sp">University of San Fransisco - MS in Computer Science</li>
-                <li className="li-width-sp">Rutgers University - MS in Computer Science</li>
+                <li className="li-width-sp">
+                  New York University - MS in Electrical and Computer Eng
+                </li>
+                <li className="li-width-sp">
+                  University of Washington - MS in Computer Science
+                </li>
+                <li className="li-width-sp">
+                  University of San Fransisco - MS in Computer Science
+                </li>
+                <li className="li-width-sp">
+                  Rutgers University - MS in Computer Science
+                </li>
                 <li className="li-width-sp">Georgia Tech - MS in Analytics</li>
-                <li className="li-width-sp">Georgia Tech - MS in Computer Science</li>
-                <li className="li-width-sp">Texas Tech University - Medical Residency</li>
-                <li className="li-width-sp">Flushing Medical Center - Medical Residency</li>
-                <li className="li-width-sp"> Montefiore Medical Center - Medical Fellowship</li>
+                <li className="li-width-sp">
+                  Georgia Tech - MS in Computer Science
+                </li>
+                <li className="li-width-sp">
+                  Texas Tech University - Medical Residency
+                </li>
+                <li className="li-width-sp">
+                  Flushing Medical Center - Medical Residency
+                </li>
+                <li className="li-width-sp">
+                  {" "}
+                  Montefiore Medical Center - Medical Fellowship
+                </li>
               </ul>
             </div>
           </div>
@@ -199,18 +239,31 @@ function Contents() {
 
       <div className="contact bg-primary text-light pt-3 pb-5">
         <div className="subTitle text-light my-3">
-          <a id="contact" className="header-adjustment link-style-deactivate">
+          <MediaQuery query="(max-width: 767px)">
+            <a id="contact" className="header-adjustment link-white-style-deactivate">
+              Contact
+            </a>
+          </MediaQuery>
+          <a id="contact" className="link-white-style-deactivate">
             Contact
           </a>
+          <MediaQuery query="(min-width: 768px)"></MediaQuery>
         </div>
         <Contact />
       </div>
 
       <div className="py-3">
         <div className="subTitle">
-          <a id="social" className="header-adjustment link-style-deactivate">
+        <MediaQuery query="(max-width: 767px)">
+          <a id="social" className="link-style-deactivate">
             Social
           </a>
+        </MediaQuery>
+        <MediaQuery query="(min-width: 768px)">
+          <a id="social" className="link-style-deactivate">
+            Social
+          </a>
+        </MediaQuery>
         </div>
         <MediaQuery query="(max-width: 767px)">
           <div className="social-smartphone">
