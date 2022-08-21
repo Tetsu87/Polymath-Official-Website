@@ -240,30 +240,34 @@ function Contents() {
       <div className="contact bg-primary text-light pt-3 pb-5">
         <div className="subTitle text-light my-3">
           <MediaQuery query="(max-width: 767px)">
-            <a id="contact" className="header-adjustment link-white-style-deactivate">
+            <a
+              id="contact"
+              className="header-adjustment link-white-style-deactivate"
+            >
               Contact
             </a>
           </MediaQuery>
-          <a id="contact" className="link-white-style-deactivate">
-            Contact
-          </a>
-          <MediaQuery query="(min-width: 768px)"></MediaQuery>
+          <MediaQuery query="(min-width: 768px)">
+            <a id="contact" className="link-white-style-deactivate">
+              Contact
+            </a>
+          </MediaQuery>
         </div>
         <Contact />
       </div>
 
       <div className="py-3">
         <div className="subTitle">
-        <MediaQuery query="(max-width: 767px)">
-          <a id="social" className="link-style-deactivate">
-            Social
-          </a>
-        </MediaQuery>
-        <MediaQuery query="(min-width: 768px)">
-          <a id="social" className="link-style-deactivate">
-            Social
-          </a>
-        </MediaQuery>
+          <MediaQuery query="(max-width: 767px)">
+            <a id="social" className="link-style-deactivate">
+              Social
+            </a>
+          </MediaQuery>
+          <MediaQuery query="(min-width: 768px)">
+            <a id="social" className="link-style-deactivate">
+              Social
+            </a>
+          </MediaQuery>
         </div>
         <MediaQuery query="(max-width: 767px)">
           <div className="social-smartphone">
