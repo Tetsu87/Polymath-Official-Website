@@ -40,18 +40,18 @@ router.post("/contact", (req, res) => {
     to: config.postTo,
     bcc: config.postBccTo,
     replyTo: req.body.email,
-    subject: "お問い合わせ",
-    html: `<p>Name: ${name}</p>
-               <p>Email: ${email}</p>
-               <p>Tel: ${tel}</p>
-               <p>Message: ${message}</p>
-              <p>Options: ${options}</p>`,
+    subject: "新規フォームが送信されました",
+    html: `<p>名前: ${name}</p>
+               <p>メールアドレス: ${email}</p>
+               <p>電話番号: ${tel}</p>
+               <p>問い合わせ内容: ${message}</p>
+              <p>オプションを選択: ${options}</p>`,
   };
   contactEmail.sendMail(mail, (error) => {
     if (error) {
-      res.json({ status: "ERROR" });
+      res.json({ status: "エラー。もう一度試して頂くか、LINEで相談ボタンからご連絡下さい。" });
     } else {
-      res.json({ status: "Message Sent" });
+      res.json({ status: "Polymath NYCへのお問い合わせありがとうございます。出来る限り早く返信させて頂きます。今しばらくお待ちくださいませ。" });
     }
   });
 });

@@ -121,19 +121,22 @@ function Contact() {
             簡単なご相談やご質問はLINEでも承っております。お気軽にどうぞ。
           </p>
 
-          {/* <a href="https://lin.ee/Rz2NZubS" target="_blank">
+          {/* a line logo including a text */}
+          <a href="https://lin.ee/Rz2NZubS" target="_blank">
             <div className="line-wrapper">
               <img src={line_consult} className="line-logo" />
             </div>
-          </a> */}
-          <a href="https://lin.ee/Rz2NZubS" target="_blank">
+          </a>
+
+          {/* a line logo using an original picuture and text*/}
+          {/* <a href="https://lin.ee/Rz2NZubS" target="_blank">
               <div className="line-wrapper">
                 <div className="line-relative">
                   <img src={line_base} className="line-logo" />
                   <div className="line-absolute">LINEで相談</div>
                 </div>
               </div>
-            </a>
+            </a> */}
         </MediaQuery>
 
         <MediaQuery query="(min-width: 768px)">
@@ -217,19 +220,19 @@ function Contact() {
             <p className="text-center small-letter pc">
               簡単なご相談やご質問はLINEでも承っております。お気軽にどうぞ。
             </p>
-            {/* <a href="https://lin.ee/Rz2NZubS" target="_blank">
+            <a href="https://lin.ee/Rz2NZubS" target="_blank">
               <div className="line-wrapper">
                 <img src={line_consult} className="line-logo" />
               </div>
-            </a> */}
-            <a href="https://lin.ee/Rz2NZubS" target="_blank">
+            </a>
+            {/* <a href="https://lin.ee/Rz2NZubS" target="_blank">
               <div className="line-wrapper">
                 <div className="line-relative">
                   <img src={line_base} className="line-logo" />
                   <div className="line-absolute">LINEで相談</div>
                 </div>
               </div>
-            </a>
+            </a> */}
           </div>
         </MediaQuery>
       </div>
