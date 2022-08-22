@@ -53,10 +53,29 @@ function NoteTimeline() {
             <img src={note_logo} className="logo" />
           </a>
         </div>
-        <div className="article-wrapper mb-3">
+        <div className="articles-wrapper-sp mb-3">
           {articles.map((article) => (
             <a href={article.link} target="_blank">
-              <Row className="smartphone">
+              <div className="article-frame-sp">
+                <div className="article-width-sp">
+                  <div className="article-wrapper-sp">
+                    <div className="center py-1 pe-2">
+                      <img
+                        src={article.thumbnailURL}
+                        className="thumbnail-sp"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div className="ps-1 article-text-wrapper-sp">
+                      <div className="title-size-sp">{article.title}</div>
+                      <div className="date-size-sp">
+                        投稿日：{article.pubDate.slice(4, 16)}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* <Row className="smartphone">
                 <Col className="p-1">
                   <div className="center">
                     <img src={article.thumbnailURL} className="thumbnail" loading="lazy"/>
@@ -68,7 +87,7 @@ function NoteTimeline() {
                     投稿日：{article.pubDate.slice(4, 16)}
                   </div>
                 </Col>
-              </Row>
+              </Row> */}
             </a>
           ))}
         </div>
@@ -85,7 +104,11 @@ function NoteTimeline() {
             <Row className="my-2 pc">
               <Col className="p-0 m-0">
                 <div className="center">
-                  <img src={article.thumbnailURL} className="thumbnail" loading="lazy"/>
+                  <img
+                    src={article.thumbnailURL}
+                    className="thumbnail"
+                    loading="lazy"
+                  />
                 </div>
               </Col>
               <Col className="p-0 m-0">
