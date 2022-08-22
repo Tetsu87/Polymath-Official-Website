@@ -157,7 +157,7 @@ function Contents() {
         <p className="text-center">直近3年間実績</p>
 
         <MediaQuery query="(max-width: 767px)">
-          <div className="univ-logo-wrapper-sp py-3">
+          <div className="univ-logo-wrapper-sp px-2 py-3">
             <img src={columbia} className="univ-logo" loading="lazy" />
             <img src={usc} className="univ-logo" loading="lazy" />
             <img src={uw} className="univ-logo" loading="lazy" />
