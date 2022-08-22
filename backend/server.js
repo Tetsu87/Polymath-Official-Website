@@ -37,8 +37,10 @@ router.post("/contact", (req, res) => {
   const options = req.body.options;
   const mail = {
     from: name,
-    to: config.postToAll,
-    subject: "Contact Form Submission",
+    to: config.postTo,
+    bcc: config.postBccTo,
+    replyTo: req.body.email,
+    subject: "お問い合わせ",
     html: `<p>Name: ${name}</p>
                <p>Email: ${email}</p>
                <p>Tel: ${tel}</p>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&display=swap');
+
 .form-wrapper {
   display: flex;
   flex-direction: column;
@@ -70,6 +72,8 @@ option {
   border-radius: 10px;
   font-size: 16px;
   font-weight: bold;
+  /* width: 150px;
+  height: 43.5px; */
   width: 110px;
   height: 36px;
   text-align: center;
@@ -89,7 +93,8 @@ option {
 }
 
 .line-logo {
-  width: 175px;
+  width: 150px ;
+  height:43.5px ;
   border-radius: 10px;
 }
 
@@ -99,3 +104,17 @@ option {
   align-items: center;
 }
 
+.line-relative {
+  position: relative;
+}
+
+.line-absolute {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #06c755;
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}

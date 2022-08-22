@@ -7,14 +7,19 @@ header {
   z-index: 1;
 }
 
-.polymath-logo-sp {
-  width: 250px;
-}
-
 .image-center {
   display: flex;
   justify-content: center;
 }
+
+.nav-sp {
+  width: 360px;
+}
+
+.polymath-logo-sp {
+  width: 250px;
+}
+
 
 /* for pc  */
 

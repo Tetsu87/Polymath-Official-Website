@@ -11,7 +11,9 @@ function BootstrapNavbar() {
         <div>
           <header className="">
             <div className="image-center py-2">
+              <div className="nav-sp px-4">
               <img src={polymath_logo} className="polymath-logo-sp" />
+              </div>
             </div>
           </header>
 

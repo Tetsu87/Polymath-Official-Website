@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Contact.css";
 import line_consult from "./images/line_consult.png";
+import line_base from "./images/line_base.png";
 import MediaQuery from "react-responsive";
 
 function Contact() {
@@ -120,11 +121,19 @@ function Contact() {
             簡単なご相談やご質問はLINEでも承っております。お気軽にどうぞ。
           </p>
 
-          <a href="https://lin.ee/Rz2NZubS" target="_blank">
+          {/* <a href="https://lin.ee/Rz2NZubS" target="_blank">
             <div className="line-wrapper">
               <img src={line_consult} className="line-logo" />
             </div>
-          </a>
+          </a> */}
+          <a href="https://lin.ee/Rz2NZubS" target="_blank">
+              <div className="line-wrapper">
+                <div className="line-relative">
+                  <img src={line_base} className="line-logo" />
+                  <div className="line-absolute">LINEで相談</div>
+                </div>
+              </div>
+            </a>
         </MediaQuery>
 
         <MediaQuery query="(min-width: 768px)">
@@ -208,9 +217,17 @@ function Contact() {
             <p className="text-center small-letter pc">
               簡単なご相談やご質問はLINEでも承っております。お気軽にどうぞ。
             </p>
-            <a href="https://lin.ee/Rz2NZubS" target="_blank">
+            {/* <a href="https://lin.ee/Rz2NZubS" target="_blank">
               <div className="line-wrapper">
                 <img src={line_consult} className="line-logo" />
+              </div>
+            </a> */}
+            <a href="https://lin.ee/Rz2NZubS" target="_blank">
+              <div className="line-wrapper">
+                <div className="line-relative">
+                  <img src={line_base} className="line-logo" />
+                  <div className="line-absolute">LINEで相談</div>
+                </div>
               </div>
             </a>
           </div>
