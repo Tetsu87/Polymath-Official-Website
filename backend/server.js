@@ -51,7 +51,7 @@ router.post("/contact", (req, res) => {
     if (error) {
       res.json({ status: "エラー。もう一度試して頂くか、LINEで相談ボタンからご連絡下さい。" });
     } else {
-      res.json({ status: "Polymath NYCへのお問い合わせありがとうございます。出来る限り早く返信させて頂きます。今しばらくお待ちくださいませ。" });
+      res.json({ status: "Polymath NYCへのお問い合わせありがとうございます。2日以内に返信させて頂きます。今しばらくお待ちくださいませ。" });
     }
   });
 });

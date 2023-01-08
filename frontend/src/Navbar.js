@@ -1,8 +1,8 @@
-import polymath_logo from "./images/polymath_logo.jpg";
-import "./Navbar.css";
-import React from "react";
-import MediaQuery from "react-responsive";
-import Menu from "./Menu";
+import polymath_logo from './images/polymath_logo.jpg'
+import './Navbar.css'
+import React from 'react'
+import MediaQuery from 'react-responsive'
+import Menu from './Menu'
 
 function BootstrapNavbar() {
   return (
@@ -12,7 +12,7 @@ function BootstrapNavbar() {
           <header className="">
             <div className="image-center py-2">
               <div className="nav-sp px-4">
-              <img src={polymath_logo} className="polymath-logo-sp" />
+                <img src={polymath_logo} className="polymath-logo-sp" />
               </div>
             </div>
           </header>
@@ -21,8 +21,8 @@ function BootstrapNavbar() {
             <Menu
               right
               width={180}
-              pageWrapId={"page-wrap"}
-              outerContainerId={"outer-container"}
+              pageWrapId={'page-wrap'}
+              outerContainerId={'outer-container'}
               ï
             />
           </div>
@@ -74,7 +74,7 @@ function BootstrapNavbar() {
         </div>
       </MediaQuery>
     </div>
-  );
+  )
 }
 
-export default BootstrapNavbar;
+export default BootstrapNavbar
