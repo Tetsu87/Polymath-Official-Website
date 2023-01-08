@@ -223,6 +223,7 @@ function Contents() {
                   University of Southern California - MS in Computer Science
                 </li>
                 <li>New York University - MS in Electrical and Computer Eng</li>
+                <li>New York University - Tandon Bridge</li>
                 <li>University of Washington - MS in Computer Science</li>
                 <li>University of San Fransisco - MS in Computer Science</li>
                 <li>Rutgers University - MS in Computer Science</li>
